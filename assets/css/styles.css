@@ -1,2 +1,42 @@
 
 /* css */
+.blocktxt1 {
+    background-color: rgb(246, 237, 10);
+    width: 498px;
+    height: 344px;
+    left: 205px;
+    top: 155px;
+    z-index: 1;
+    position: absolute;
+    z-index: 0;
+}
+.blocktxt2 {
+    background-color: rgb(246, 237, 10);
+    width: 317px;
+    height: 183px;
+    left: 226px;
+    top: 335px;
+    position: absolute;
+    z-index: 0;
+}
+.OurWagesWonTLiftYour {
+    width: 374px; 
+    height: 538px;
+    left: 231px;
+    top: 140px;
+    color: black; 
+    font-size: 75px; 
+    font-family: 'Luckiest Guy', sans-serif;                            
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    z-index: 1;
+}
+.OurWagesWonTLiftYour:hover,
+.blocktxt1:hover,
+.blocktxt2:hover  {
+    opacity: 0; 
+    cursor: pointer;
+    z-index: 1; 
+}
+
