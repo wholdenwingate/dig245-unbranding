@@ -1,12 +1,13 @@
 
 /* css */
+@import url('https://fonts.cdnfonts.com/css/luckiest-guy');
+
 .blocktxt1 {
     background-color: rgb(246, 237, 10);
     width: 498px;
     height: 344px;
     left: 205px;
     top: 155px;
-    z-index: 1;
     position: absolute;
     z-index: 0;
 }
@@ -32,10 +33,12 @@
     position: absolute;
     z-index: 1;
 }
-.OurWagesWonTLiftYour:hover,
-.blocktxt1:hover,
-.blocktxt2:hover  {
-    opacity: 0; 
-    cursor: pointer;
+#mouseoverimg:hover {
+    opacity: 1;
+}
+#mouseoverimg:hover ~ .blocktxt1,
+#mouseoverimg:hover ~ .blocktxt2,
+#mouseoverimg:hover ~ .OurWagesWonTLiftYour {
+    opacity: 0;
 }
 
